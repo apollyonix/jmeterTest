@@ -137,29 +137,11 @@
 					<jmeter.save.saveservice.output_format>xml</jmeter.save.saveservice.output_format>
 					<jmeter.save.saveservice.thread_counts>true</jmeter.save.saveservice.thread_counts>
 				</propertiesJmeter>
-<!--				<propertiesUser>
-					<clmhost>${clmhost}</clmhost>
-					<clmport>${clmport}</clmport>
-					<clmprotocol>${clmprotocol}</clmprotocol>
-					<jmxip>${jmxip}</jmxip>
-					<resultsfolder>${project.build.directory}/results</resultsfolder>
-					<runtime>${runtime}</runtime>
-					<numbersofthreads>${numbersofthreads}</numbersofthreads>
-					<rampup>${rampup}</rampup>
-					<delay>${delay}</delay>
-					<runreportactivity>${runreportactivity}</runreportactivity>
-					<basicsearchactivity>${basicsearchactivity}</basicsearchactivity>
-					<viewrandomcontractdetailsactivity>${viewrandomcontractdetailsactivity}</viewrandomcontractdetailsactivity>
-					<dashboardnavigationactivity>${dashboardnavigationactivity}</dashboardnavigationactivity>
-					<createcontractactivity>${createcontractactivity}</createcontractactivity>
-					<editcontractactivity>${editcontractactivity}</editcontractactivity>
-					<checkoutactivity>${checkoutactivity}</checkoutactivity>
-					<esignatureactivity>${esignatureactivity}</esignatureactivity>
-					<uploaddownloadactivity>${uploaddownloadactivity}</uploaddownloadactivity>
-					<importactivity>${importactivity}</importactivity>
-					<importFile>${importFile}</importFile>
-					<activitylog>${activitylog}</activitylog>
-				</propertiesUser> -->
+				<propertiesUser>
+					<host>${host}</host>
+          <port>${port}</port>
+          <proto>${proto}</proto>
+				</propertiesUser> 
 			</configuration>
 		  </execution>
 		</executions>
